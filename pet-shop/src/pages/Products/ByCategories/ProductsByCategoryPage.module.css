@@ -1,0 +1,148 @@
+.globalContainer {
+    margin-bottom: 106px;
+}
+
+.productsByCategoryPage {
+    padding: 20px;
+}
+
+.path {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70.4px;
+    margin: 40px 0;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+    white-space: nowrap;
+    padding: 6px 16px;
+    color: #8B8B8B;
+}
+
+.activeLink {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+    white-space: nowrap;
+    padding: 6px 16px;
+    color: #282828
+}
+
+.titleLine {
+    width: 16px;
+    height: 1px;
+    background-color: #DDDDDD;
+}
+
+.categoryPageTitle {
+    margin-bottom: 40px;
+}
+
+.filterContainer {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.selectSort {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sortTitle {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.productsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 32px;
+    margin-top: 30px;
+    z-index: 1;
+}
+
+.productCard {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.productCard img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.productCard .productName {
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #333;
+}
+
+.productCard .productPrice {
+    margin-top: 8px;
+    font-size: 18px;
+    color: #e74c3c;
+    font-weight: 600;
+}
+
+.productCard .productDiscountPrice {
+    font-size: 18px;
+    text-decoration: line-through;
+    color: #999;
+}
+
+.noProductsText {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-top: 40px;
+}
+
+.filterContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.resetButton {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+    padding: 6px 16px;
+    color: #8B8B8B;
+    cursor: pointer;
+    transition: color 0.3s ease, border-color 0.3s ease;
+    height: 40px;
+    white-space: nowrap;
+}
+
+.resetButton:hover {
+    color: #282828;
+    border-color: #282828;
+}

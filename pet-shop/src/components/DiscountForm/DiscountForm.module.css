@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 486px;
+    border-radius: 12px;
+    background: linear-gradient(261.47deg, #2451C6 32.63%, #0D50FF 98.96%);
+    margin-top: 106px;
+    padding: 32px 32px 0 32px;
+}
+
+.container h2 {
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 32px;
+}
+
+.imgBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+img:hover {
+    transform: none;
+    cursor: auto;
+}
+
+.formContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-width: 516px;
+    gap: 32px;
+    padding-bottom: 32px;
+}
+
+.formBox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.formItem input {
+    width: 100%;
+    height: 58px;
+    padding: 0 32px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    border: 1px solid #FFFFFF;
+    background: none;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+.formItem input::placeholder {
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.discountBtn {
+    padding: 0 32px;
+    border: none;
+    height: 58px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    background-color: #FFFFFF;
+    color: #282828;
+    white-space: nowrap;
+    z-index: 10;
+}
+
+.discountBtn:hover {
+    background-color: #282828;
+    color: #FFFFFF;
+}
+
+.discountBtn:active {
+    background-color: #FFFFFF;
+    color: #282828;
+}

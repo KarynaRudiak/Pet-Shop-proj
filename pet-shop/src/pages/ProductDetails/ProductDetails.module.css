@@ -1,0 +1,155 @@
+.productDetailsPage {
+  height: auto;
+}
+
+.productContainer {
+  display: flex;
+  width: 100%;
+  gap: 32px;
+}
+
+.productImageContainer {
+  width: 57.5%;
+  height: 572px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.path {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70.4px;
+  margin: 40px 0;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 6px;
+  white-space: nowrap;
+  padding: 6px 16px;
+  color: #8B8B8B;
+}
+
+.activeLink {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 6px;
+  white-space: nowrap;
+  padding: 6px 16px;
+  color: #282828
+}
+
+.titleLine {
+  width: 16px;
+  height: 1px;
+  background-color: #DDDDDD;
+}
+
+.productImage {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+.productInfo {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.productTitle {
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+
+
+.currentPrice {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70.4px;
+}
+
+.originalPrice {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 52px;
+  text-align: left;
+  text-decoration: line-through;
+  color: #8B8B8B;
+  margin-left: 32px;
+}
+
+.discountFlag {
+  color: #FFFFFF;
+  background-color: #0D50FF;
+  font-weight: 600;
+  padding: 4px 8px;
+  margin-left: 16px;
+  border-radius: 6px;
+  position: relative;
+  top: -34px;
+}
+
+.counterAndButton {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  margin: 30px 0;
+}
+
+.counterAndButton Button {
+  width: 100%;
+}
+
+.addToCartContainer {
+  width: 100px;
+}
+
+.productDescription h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+}
+
+.productDescriptionText {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  max-height: 83.2px;
+  overflow: hidden;
+  transition: max-height 0s ease-in-out;
+}
+
+.productDescriptionText.expanded {
+  max-height: 1000px; 
+}
+
+.productDescription button {
+  margin: 16px 0 0;
+  padding: 0;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #282828;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.productDescription button:hover {
+  color: #0D50FF;
+}
