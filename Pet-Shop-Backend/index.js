@@ -1,4 +1,3 @@
-const { request } = require('express');
 const express = require('express');
 const categories = require('./routes/categories');
 const sale = require('./routes/sale');
