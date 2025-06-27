@@ -1,7 +1,6 @@
 {
   "name": "pet-shop",
   "private": true,
-  "homepage": "https://karynarudiak.github.io/Pet-Shop-proj",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
