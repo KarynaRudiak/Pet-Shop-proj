@@ -16,7 +16,7 @@ import ModalWindow from "./components/ModalWindow/ModalWindow";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Pet-Shop-proj">
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
