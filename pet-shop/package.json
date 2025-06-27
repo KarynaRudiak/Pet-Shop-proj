@@ -1,6 +1,7 @@
 {
   "name": "pet-shop",
   "private": true,
+  "homepage": "https://karynarudiak.github.io/pet-shop",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,7 +9,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "serve -s dist"
+    "start": "serve -s dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -28,6 +31,7 @@
     "@eslint/js": "^9.21.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.6.0",
     "@vitejs/plugin-react-swc": "^3.8.0",
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
